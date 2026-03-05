@@ -5,5 +5,11 @@
       "source": "/(.*)",
       "destination": "/public/index.php"
     }
+  ],
+   "builds": [
+    {
+      "src": "public/index.php",
+      "use": "@vercel/php"
+    }
   ]
 }
